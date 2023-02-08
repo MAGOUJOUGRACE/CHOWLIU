@@ -1,0 +1,25 @@
+Package: CHOWLIU
+Type: Package
+Title: Algorithme de CHOW-LIU 
+Version: 0.1.0
+Author: c(person("Ahouahounko GUIDJIME ADINSI",
+                    email = "telesphore.adinsi@gamil.com"),
+             person("MAGOUJOU Grace", email = "gmacdonie@gmail.com"),
+             person("Mamadou O BAH", email = "m.deo.bah@gmail.com"))
+Maintainer: Grace MAGOUJOU <gmacdonie@gmail.com>
+Description: Implementation de l'agorithme de CHOW-LIU de façon 
+           naive et en utilisant la methode de Prim.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.2
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp,
+    stats,
+    igraph,
+    microbenchmark
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
